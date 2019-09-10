@@ -63,13 +63,13 @@ int main() {
     cout << "Ket qua: " << giaithua_0dequy(50) << endl;
     clock_t finish=clock();
     cout << "Thoi gian chay: ";
-    cout << fixed << setprecision(3) << (double)(start-finish) << endl;
+    cout << fixed << setprecision(3) << (double)(start-finish) << " s" << endl;
     cout << "----------------------------------\n";
     cout << "Giai thua su dung de quy!" << endl;
     start=clock();
     cout << "Ket qua: " << giaithua_dequy(50) << endl;
     clock_t finish=clock();
     cout << "Thoi gian chay: ";
-    cout << fixed << setprecision(3) << (double)(start-finish);
+    cout << fixed << setprecision(3) << (double)(start-finish) << " s";
 	return 0;
 }
